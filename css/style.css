@@ -1,1 +1,334 @@
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-google-plus-square {
+    color: #dc4e41;
+}
+
+.fa-github-square {
+    color: black;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-download {
+    color: #738a8d;
+}
+
+li {
+    list-style: none;
+}
+
+#backend,
+#frontend {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -50px;
+    color: white;
+}
+
+#competences,
+#diplomes {
+    background-color: #f4f4f4;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+section,
+.section {
+    padding: 90px 0 120px
+}
+
+.title {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 160%;
+    text-transform: uppercase;
+    font-weight: 900
+}
+
+.col {
+    display: block;
+    float: left;
+    width: 99%;
+    margin-left: .5%;
+    margin-right: .5%
+}
+
+.col-right {
+    float: right;
+    width: 99%;
+    margin-left: .5%;
+    margin-right: .5%
+}
+
+.block {
+    display: block;
+    /* width: 5px; */
+}
+
+.m {
+    margin: 5px
+}
+
+.mt {
+    margin-top: 5px
+}
+
+.mb {
+    margin-bottom: 5px
+}
+
+.mr {
+    margin-right: 5px
+}
+
+.mmt {
+    margin-top: 10px
+}
+
+.mmb {
+    margin-bottom: 10px
+}
+
+.mmm {
+    margin: 20px
+}
+
+.mmmt {
+    margin-top: 20px
+}
+
+.mmmb {
+    margin-bottom: 20px
+}
+
+.mmmm {
+    margin: 40px
+}
+
+.mmmmt {
+    margin-top: 40px
+}
+
+.mmmmb {
+    margin-bottom: 40px
+}
+
+.mmmmmt {
+    margin-top: 60px
+}
+
+.border-gray {
+    border-bottom: 2px solid #677273
+}
+
+.border-blue {
+    border-bottom: 2px solid #2e8ece
+}
+
+.border-purple {
+    border-bottom: 2px solid #a66bbe
+}
+
+.border-carrot {
+    border-bottom: 2px solid #e67e22
+}
+
+.bg-white {
+    background-color: #fff
+}
+
+.bg-light {
+    background-color: #f4f4f4
+}
+
+.bg-blue {
+    background-color: #2e8ece
+}
+
+.bg-purple {
+    background-color: #a66bbe
+}
+
+.bg-carrot {
+    background-color: #e67e22
+}
+
+.white {
+    color: #fff
+}
+
+.ming {
+    color: #1ba39c
+}
+
+.blue {
+    color: #2e8ece
+}
+
+.purple {
+    color: #a66bbe
+}
+
+.txt-center {
+    text-align: center
+}
+
+.intro {
+    margin: 5px 0 60px;
+    font-size: 90%;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    /* margin-bottom: 0px; */
+}
+
+@media screen and (min-width:1201px) {
+    .row {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:980px) {
+    .large-col-3 {
+        width: 23.75%
+    }
+}
+
+.icon {
+    display: none
+}
+
+.icon-skill {
+    border: 10px solid #f4f4f4
+}
+
+.ico-backend:before {
+    content: "\f103"
+}
+
+.ico-frontend:before {
+    content: "\f10a"
+}
+
+/* ROTATION LOGO */
+.effect-rotate,
+.effect-zoom,
+.effect-zoom-rotate,
+.effect-vertical-translate,
+.effect-shake,
+.effect-horizontal-translate {
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: linear
+}
+
+.effect-hover:hover .effect-rotate {
+    animation: 8s rotate infinite linear
+}
+
+.effect-hover:hover .effect-zoom {
+    animation: 2s zoom infinite linear
+}
+
+.effect-hover:hover .effect-zoom-rotate {
+    animation: 4s zoom-rotate infinite linear
+}
+
+.effect-hover:hover .effect-vertical-translate {
+    animation: 1s vertical-translate infinite linear
+}
+
+.effect-hover:hover .effect-shake {
+    animation: 1s shake infinite linear
+}
+
+.effect-hover:hover .effect-horizontal-translate {
+    animation: 1s horizontal-translate infinite linear
+}
+
+.effect-move i {
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    transform: translate(0, 0)
+}
+
+.effect-move:hover i {
+    transform: translate(0, -20px)
+}
+
+/* FIN ROTATION */
+.skill-title {
+    display: block;
+    font-size: 110%;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.skill-list {
+    margin: 10px 0 20px;
+    padding-left: 0px;
+}
+
+@media screen and (min-width:980px) {
+    .large-offset-1 {
+        margin-left: 8.75%
+    }
+
+    .large-offset-0-5 {
+        margin-left: 5%
+    }
+}
+
+@media screen and (min-width:481px) {
+    .small-offset-1 {
+        margin-left: 8.75%
+    }
+
+    .small-offset-2 {
+        margin-left: 17%
+    }
+}
+
+@media screen and (min-width:768px) {
+    .medium-offset-0 {
+        margin-left: .5%
+    }
+
+    .medium-offset-1 {
+        margin-left: 8.75%
+    }
+
+    .medium-offset-2 {
+        margin-left: 17%
+    }
+
+    .medium-block {
+        display: block
+    }
+
+    .medium-txt-left {
+        text-align: left
+    }
+
+    .content-title {
+        margin-bottom: 0
+    }
+}

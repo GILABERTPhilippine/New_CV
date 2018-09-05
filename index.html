@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+    <link rel="icon" href="img/photo1.jpg">
 
     <title>CV Développeuse Web Junior - Philippine GILABERT</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstraps/bootstrap.min.css" rel="stylesheet">
 
+    <!-- FontAwesome core css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="css/competence.css"> -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -32,7 +37,7 @@
             </ul>
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item d-flex justify-content-center">
-                    <a class="nav-link" href="#projet">COMPÉTENCES</a>
+                    <a class="nav-link" href="#competences">COMPÉTENCES</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="#projet">PROJET</a>
@@ -54,7 +59,7 @@
     </header>
 
     <main role="main">
-
+        <!-- DEBUT CARROUSEL -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -66,6 +71,7 @@
                     <div class="container d-flex align-items-center">
                         <div class="carousel-caption">
                             <img class="rounded-circle" src="img/photo1.jpg" alt="Profil" width="140" height="140">
+                            <br>
                             <h1>Philippine GILABERT</h1>
                         </div>
                     </div>
@@ -90,7 +96,54 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <!-- FIN CARROUSEL -->
 
+        <div id="competences" class="section">
+            <p class="title">Compétences</p>
+            <p class="intro">Autodidacte, je me forme facilement.</p>
+            <ul class="row text-center">
+                <li class="col col-lg-3 large-offset-1 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb txt-center bg-white border-blue effect-hover">
+                    <i class="fas fa-cog fa-3x icon-skill bg-blue block effect-rotate" id="backend"></i>
+                    <!-- <div class="icon icon-skill bg-blue">
+                        <i class="block ico ico-backend effect-rotate"></i>
+                    </div> -->
+                    <p class="skill-title">Back-end</p>
+                    <ul class="skill-list">
+                        <li>PHP / MySQL</li>
+                        <li>NodeJS / MongoDB</li>
+                        <li><abbr title="Programmation Orientée Objet">POO</abbr> / <abbr title="architecture 3 tiers : Modèle, Vue, Contrôleur">MVC</abbr>
+                            / Frameworks</li>
+                        <li>Linux Debian</li>
+                    </ul>
+                </li>
+                <li class="col col-lg-3 large-offset-0-5 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb bg-white border-purple txt-center effect-hover">
+                    <!-- <div class="icon icon-skill bg-purple text-center">
+                        <i class="block ico ico-frontend effect-zoom-rotate"></i>
+                    </div> -->
+                    <i class="far fa-window-maximize fa-3x icon-skill bg-purple block effect-rotate" id="frontend"></i>
+                    <p class="skill-title">Front-end</p>
+                    <ul class="skill-list">
+                        <li>HTML / CSS</li>
+                        <li>Bootstrap / JQuery</li>
+                        <li><abbr title="Responsive Web Design">RWD</abbr> / <abbr title="User eXperience">UX</abbr> /
+                            <abbr title="User Interface">UI</abbr></li>
+                        <li>Photoshop</li>
+                    </ul>
+                </li>
+                <li class="col col-lg-3 large-offset-0-5 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb bg-white border-carrot txt-center effect-hover ">
+                    <div class="icon icon-skill bg-carrot txt-center">
+                        <i class="block ico ico-extra effect-zoom"></i>
+                    </div>
+                    <p class="skill-title">Full-stack</p>
+                    <ul class="skill-list">
+                        <li>Gestion de projets</li>
+                        <li><abbr title="Search Engine Optimization">SEO</abbr></li>
+                        <li>Sécurité</li>
+                        <li>Anglais technique</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
         <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
@@ -180,8 +233,24 @@
 
         <!-- FOOTER -->
         <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <div class="row">
+                <div class="col-sm">
+                    <p>&copy; 2018 Philippine GILABERT</p>
+                </div>
+                <div class="col-sm text-center">
+                    <a href="https://www.linkedin.com/in/philippine-gilabert-7ba216153/" class="fab fa-linkedin fa-3x"></a>
+                    &nbsp;
+                    <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                        class="fab fa-google-plus-square fa-3x"></a>
+                    &nbsp;
+                    <a href="https://github.com/GILABERTPhilippine" class="fab fa-github-square fa-3x"></a>
+                    &nbsp;
+                    <a class="fas fa-download fa-2x" href="Mon_cv.pdf"></a>
+                </div>
+                <div class="col-sm">
+                    <p class="float-right"><a href="#">Back to top</a></p>
+                </div>
+            </div>
         </footer>
     </main>
 
@@ -189,9 +258,9 @@
     ================================================== -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script>
+    <!-- <script>
         window.jQuery || document.write('<script src="bootstraps/jquery-slim.min.js"><\/script>')
-    </script>
+    </script> -->
     <script src="bootstraps/popper.min.js"></script>
     <script src="bootstraps/bootstrap.min.js"></script>
     <script src="bootstraps/holder.min.js"></script>
