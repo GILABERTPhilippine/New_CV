@@ -19,7 +19,6 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/competence.css"> -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -31,7 +30,7 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#apropose">
-                        <p id="initiales" style="font-family: 'Alex Brush', cursive;">Dev Junior</p><span class="sr-only">(current)</span>
+                        <p id="initiales">Dev Junior</p><span class="sr-only">(current)</span>
                     </a>
                 </li>
             </ul>
@@ -98,101 +97,77 @@
         </div>
         <!-- FIN CARROUSEL -->
 
-        <div id="competences" class="section">
-            <p class="title">Compétences</p>
-            <p class="intro">Autodidacte, je me forme facilement.</p>
-            <ul class="row text-center">
-                <li class="col col-lg-3 large-offset-1 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb txt-center bg-white border-blue effect-hover">
-                    <i class="fas fa-cog fa-3x icon-skill bg-blue block effect-rotate" id="backend"></i>
-                    <!-- <div class="icon icon-skill bg-blue">
-                        <i class="block ico ico-backend effect-rotate"></i>
-                    </div> -->
-                    <p class="skill-title">Back-end</p>
-                    <ul class="skill-list">
-                        <li>PHP / MySQL</li>
-                        <li>NodeJS / MongoDB</li>
-                        <li><abbr title="Programmation Orientée Objet">POO</abbr> / <abbr title="architecture 3 tiers : Modèle, Vue, Contrôleur">MVC</abbr>
-                            / Frameworks</li>
-                        <li>Linux Debian</li>
-                    </ul>
-                </li>
-                <li class="col col-lg-3 large-offset-0-5 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb bg-white border-purple txt-center effect-hover">
-                    <!-- <div class="icon icon-skill bg-purple text-center">
-                        <i class="block ico ico-frontend effect-zoom-rotate"></i>
-                    </div> -->
-                    <i class="far fa-window-maximize fa-3x icon-skill bg-purple block effect-rotate" id="frontend"></i>
-                    <p class="skill-title">Front-end</p>
-                    <ul class="skill-list">
-                        <li>HTML / CSS</li>
-                        <li>Bootstrap / JQuery</li>
-                        <li><abbr title="Responsive Web Design">RWD</abbr> / <abbr title="User eXperience">UX</abbr> /
-                            <abbr title="User Interface">UI</abbr></li>
-                        <li>Photoshop</li>
-                    </ul>
-                </li>
-                <li class="col col-lg-3 large-offset-0-5 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb bg-white border-carrot txt-center effect-hover ">
-                    <div class="icon icon-skill bg-carrot txt-center">
-                        <i class="block ico ico-extra effect-zoom"></i>
-                    </div>
-                    <p class="skill-title">Full-stack</p>
-                    <ul class="skill-list">
-                        <li>Gestion de projets</li>
-                        <li><abbr title="Search Engine Optimization">SEO</abbr></li>
-                        <li>Sécurité</li>
-                        <li>Anglais technique</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
         <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <!-- PARTIE COMPETENCE -->
+            <div id="competences" class="section">
+                <p class="title">COMPÉTENCES</p>
+                <p class="intro">Autonome, je me forme facilement.</p>
+                <ul class="row text-center">
+                    <li class="col col-lg-3 large-offset-1 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb txt-center bg-white border-blue">
+                        <i class="fas fa-cog fa-3x icon-skill bg-blue block bounce-top" id="backend"></i>
+                        <!-- <div class="block bg-blue">
+                            <i class="fas fa-cog fa-3x icon-skill rotate-center" id="backend"></i>
+                        </div> -->
+                        <p class="skill-title">Back-end</p>
+                        <ul class="skill-list">
+                            <li>PHP / MySQL / Postgres</li>
+                            <li>NodeJS / MongoDB</li>
+                            <li><abbr title="Programmation Orientée Objet">POO</abbr> / <abbr title="architecture 3 tiers : Modèle, Vue, Contrôleur">MVC</abbr>
+                                / Frameworks</li>
+                            <li>Linux Debian / Mac Os</li>
+                        </ul>
+                    </li>
+                    <li class="col col-lg-3 large-offset-0-5 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb bg-white border-purple txt-center">
+                        <!-- <div class="icon-skill bg-purple text-center">
+                            <i class="block effect-zoom-rotate"></i>
+                        </div> -->
+                        <i class="far fa-window-maximize fa-3x icon-skill bg-purple block shake-horizontal" id="frontend"></i>
+                        <p class="skill-title">Front-end</p>
+                        <ul class="skill-list">
+                            <li>HTML / CSS</li>
+                            <li>Bootstrap / JQuery</li>
+                            <li><abbr title="Responsive Web Design">RWD</abbr> / <abbr title="User eXperience">UX</abbr>
+                                /
+                                <abbr title="User Interface">UI</abbr></li>
+                            <li><abbr title="IDE Mac">Xcode</abbr></li>
+                        </ul>
+                    </li>
+                    <li class="col col-lg-3 large-offset-0-5 col-md-4 medium-offset-0 col-sm-8 small-offset-2 mmmmmt mmmmb bg-white border-carrot txt-center ">
+                        <!-- <div class="icon icon-skill bg-carrot txt-center">
+                            <i class="block ico ico-extra effect-zoom"></i>
+                        </div> -->
+                        <i class="fab fa-trello fa-3x icon-skill bg-carrot block kenburns-top" id="methodologie"></i>
+                        <p class="skill-title">Méthodologie</p>
+                        <ul class="skill-list">
+                            <li>Méthode Agile</li>
+                            <li><abbr title="Outil de gestion de projet en ligne">Trello</abbr></li>
+                            <li>Git / Github / Bitbucket</li>
+                            <li>Anglais technique</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- FIN COMPETENCES -->
 
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
-                        ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                        Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                        Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
-                        tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id
-                        ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                        condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
 
-
-            <!-- START THE FEATURETTES -->
-
+            <!-- DEBUT PROJET -->
             <hr class="featurette-divider">
-
+            <p class="title" id="titleprojet">PROJETS</p>
+            <p class="intro">Projets réalisés durant la formation et le stage en entreprise</p>
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your
-                            mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
-                        felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
-                        dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">
+                        <span class="text-muted">CMS - Wordpress</span>
+                    </h2>
+                    <br>
+                    <p class="lead">Création d'un site vitrine pour l'application HELPICTO qui permet de faciliter le
+                        quotidien des autistes.</p>
                 </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <div class="col-md-5 txt-center">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/400x400/auto" src="img/helpicto.png"
+                        alt="Generic placeholder image">
+                    <br>
+                    <a href="www.helpicto.com">www.helpicto.com</a>
                 </div>
             </div>
 
@@ -200,13 +175,14 @@
 
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
-                        felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
-                        dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Création du site web responsive
+                        <br>
+                        <span class="text-muted">Version mobile</span></h2>
+                    <p class="lead">Smart City pour la ville de Pamiers. Le site permet aux habitants d'exercer leur
+                        citoyenneté en contribuant à la vie de quartier.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/400x400/auto" alt="Generic placeholder image">
                 </div>
             </div>
 
@@ -214,19 +190,203 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
-                        felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
-                        dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Application mobile
+                        <br>
+                        <span class="text-muted">Innosside</span></h2>
+                    <p class="lead">Application basée sur de la réalité augmentée créé avec Cordova, permettant de
+                        visualiser des affiches virtuelles d'informations avec un choix de langues.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/400x400/auto" alt="Generic placeholder image">
                 </div>
             </div>
 
             <hr class="featurette-divider">
+            <!-- FIN PROJET -->
 
-            <!-- /END THE FEATURETTES -->
+
+            <!-- DEBUT EXPERIENCES -->
+
+            <div id="experience" class="section">
+                <p class="title">EXPÉRIENCE</p>
+                <p class="intro">Polyvalente, je m'adapte rapidement.</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col txt-center">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/innoside-logo-01.png" alt="Logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Stage - Développeuse Web Junior</h5>
+                                    <p class="card-text">Innoside - 2 mois et demi - TOULOUSE</p>
+                                    <!-- Button trigger modal -->
+                                    <a href="#" data-toggle="modal" data-target="#Modal1">En savoir plus</a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Stage - Développeuse
+                                                        Web Junior</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <strong>Mai - Juillet 2018</strong>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Réalisation
+                                                        du back-end avec NodeJS et MongoDB</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Build de
+                                                        l'application iOS à l'aide Xcode</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Création
+                                                        d'un guide Xcode sur les fonctionnalitées utilisées</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/proman.png" alt="Logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Travaux d'intérimaire / job saisonnier</h5>
+                                    <p class="card-text">Proman - PAMIERS</p>
+                                    <!-- Button trigger modal -->
+                                    <a href="#" data-toggle="modal" data-target="#Modal2">En savoir plus</a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Travaux
+                                                        d'intérimaire / job saisonnier</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <strong>2015 - 2016</strong>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Agent
+                                                        polyvalent/nettoyage</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Inventoriste</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Agent de la
+                                                        circulation pour travaux public</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Remplacement
+                                                        au poste d'ATSEM</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col txt-center">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/logo-coquelicot-v1.jpg" alt="Logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aide entraineur - Club de basket-ball</h5>
+                                    <p class="card-text">Coquelicot Lézatois - 8 mois - LEZAT SUR LEZE</p>
+                                    <!-- Button trigger modal -->
+                                    <a href="#" data-toggle="modal" data-target="#Modal3">En savoir plus</a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Aide entraineur
+                                                        -
+                                                        Club de basket-ball</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <strong>Octobre 2016 - Mai 2017</strong>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Préparation
+                                                        et animation des entraînements des enfants</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Organisation
+                                                        des
+                                                        événements (loto, gouter de Noël, etc)</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Création
+                                                        et mise à jour hebdomadaire du site internet</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/VMI.jpg" alt="Logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Stagiaire Assistante de gestion</h5>
+                                    <p class="card-text">V.M.I - 6 semaines - LEZAT SUR LEZE</p>
+                                    <!-- Button trigger modal -->
+                                    <a href="#" data-toggle="modal" data-target="#Modal4">En savoir plus</a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Stagiaire Assistante
+                                                        de gestion</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <strong>2013 - 2014</strong>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Entreprise
+                                                        spécialisée dans la vente de matériel informatique, le
+                                                        dépannage et les
+                                                        formations</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Projet sur
+                                                        la santé et la sécurité au travail</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Réalisation
+                                                        du Document Unique et mise à jour des documents obligatoires</p>
+                                                    <p><i class="fas fa-arrow-circle-right blue"></i>&nbsp;Développer
+                                                        un nouveau rayon papeterie</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN EXPERIENCE -->
+
+        <!-- DEBUT DIPLOME -->
+        <div id="diplomes" class="section">
+            <p class="title">DIPLÔME</p>
+            <p class="intro">Polyvalente, je m'adapte rapidement.</p>
+            <div id="dip" class="container txt-center">
+                <p><strong>2017/2018</strong>&nbsp;<i class="fas fa-arrow-circle-right blue"></i>
+                    Préparation au titre professionnel de Développeur Web - Simplon.co
+                </p>
+                <p><strong>2015/2017</strong>&nbsp;<i class="fas fa-arrow-circle-right purple"></i>
+                    Préparation aux concours de coach sportif
+                </p>
+                <p><strong>2012/2014</strong>&nbsp;<i class="fas fa-arrow-circle-right carrot"></i>
+                    BTS - Assitant de gestion PME-PMI
+                </p>
+                <p><strong>2010/2012</strong>&nbsp;<i class="fas fa-arrow-circle-right ming"></i>
+                    BAC - STG Mercatique
+                </p>
+            </div>
+        </div>
+        <!-- FIN DIPLOME -->
 
         </div><!-- /.scroll -->
 
@@ -254,13 +414,42 @@
         </footer>
     </main>
 
+    <!-- Three columns of text below the carousel -->
+    <!-- <div class="row">
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        alt="Generic placeholder image" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        Praesent commodo cursus magna.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        alt="Generic placeholder image" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                        Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
+                        tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        alt="Generic placeholder image" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id
+                        ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                        condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+            </div>-->
+
+
     <!-- Bootstrap pour JavaScript
     ================================================== -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <!-- <script>
-        window.jQuery || document.write('<script src="bootstraps/jquery-slim.min.js"><\/script>')
-    </script> -->
     <script src="bootstraps/popper.min.js"></script>
     <script src="bootstraps/bootstrap.min.js"></script>
     <script src="bootstraps/holder.min.js"></script>
