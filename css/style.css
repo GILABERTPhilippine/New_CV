@@ -36,7 +36,10 @@ li {
 
 #backend,
 #frontend,
-#methodologie {
+#methodologie,
+#tel,
+#mail,
+#map {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: -50px;
@@ -44,6 +47,7 @@ li {
 }
 
 #experience,
+#hobbies,
 #competences,
 #diplomes {
     background-color: #f4f4f4;
@@ -56,8 +60,22 @@ li {
 }
 
 #diplomes,
+#hobbies,
 #experience {
-    padding-bottom: 20px;
+    padding-bottom: 70px;
+}
+
+#contact {
+    background-color: #677273
+}
+
+#diplome.section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+footer {
+    margin-top: 40px;
 }
 
 section,
@@ -168,6 +186,14 @@ section,
     border-bottom: 2px solid #e67e22
 }
 
+.border-ming {
+    border-bottom: 2px solid #1ba39c
+}
+
+.border-green {
+    border-bottom: 2px solid #40d47e
+}
+
 .bg-white {
     background-color: #fff
 }
@@ -188,6 +214,14 @@ section,
     background-color: #e67e22
 }
 
+.bg-ming {
+    background-color: #1ba39c;
+}
+
+.bg-green {
+    background-color: #40d47e;
+}
+
 .white {
     color: #fff
 }
@@ -206,10 +240,6 @@ section,
 
 .purple {
     color: #a66bbe
-}
-
-.txt-center {
-    text-align: center
 }
 
 .intro {
