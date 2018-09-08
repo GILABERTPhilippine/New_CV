@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 
+body {
+    position: relative;
+}
+
 .fa-facebook {
     color: #3b5998;
 }
@@ -32,6 +36,7 @@ li {
     font-family: 'Alex Brush', cursive;
     margin-bottom: 0px;
     font-size: 25px;
+    color: white;
 }
 
 #backend,
@@ -78,11 +83,10 @@ footer {
     margin-top: 40px;
 }
 
-section,
+/* section,
 .section {
     padding: 90px 0 120px
-}
-
+} */
 .title {
     display: inline-block;
     width: 100%;
@@ -240,6 +244,10 @@ section,
 
 .purple {
     color: #a66bbe
+}
+
+.green {
+    color: #40d47e;
 }
 
 .intro {
