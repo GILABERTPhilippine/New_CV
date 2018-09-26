@@ -49,6 +49,7 @@ li {
     padding-bottom: 10px;
     margin-top: -50px;
     color: white;
+    width: 80%;
 }
 
 #experience,
@@ -83,10 +84,6 @@ footer {
     margin-top: 40px;
 }
 
-/* section,
-.section {
-    padding: 90px 0 120px
-} */
 .title {
     display: inline-block;
     width: 100%;
@@ -115,11 +112,6 @@ footer {
     width: 99%;
     margin-left: .5%;
     margin-right: .5%
-}
-
-.block {
-    display: block;
-    /* width: 5px; */
 }
 
 .m {
